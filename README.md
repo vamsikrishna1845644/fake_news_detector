@@ -2,7 +2,6 @@
 
 **A webapp for predicting whether the text of a news article is true or fake.**
 
-**Live Demo:** [https://fakenews-platform.herokuapp.com/](https://fakenews-platform.herokuapp.com/)
 
 ---
 
@@ -17,9 +16,6 @@ Even though some companies invest heavily in this field, this project is a **per
 ## **How it Works ⚙️**
 
 This is a **Machine Learning oriented project**. The webapp allows users to input news text, and predicts whether the news is true or fake.
-
-*(Optional: Add a flowchart here to visually show the process)*
-
 ---
 
 ## **Datasets 📊**
@@ -84,9 +80,7 @@ python manage.py runserver
 
 ---
 
-## **Screenshots 📸**
 
-*(Optional: Add screenshots of your webapp interface here)*
 
 ---
 
