@@ -1,55 +1,105 @@
-![logo](logo2.png)
+# **Fake News Detection Webapp** 📰
 
-<p align="center">
-    <strong>A webapp for predicting whether the text of a news article is true or fake.</strong>
-</p>
+**A webapp for predicting whether the text of a news article is true or fake.**
 
-<p align="center">
-    <a href="https://fakenews-platform.herokuapp.com/">https://fakenews-platform.herokuapp.com/</a>
-</p>
-
-<p align="center">
-    <img src="https://img.shields.io/github/workflow/status/yeguacelestial/fake-news-detection/tests?style=for-the-badge" alt="build status"/>
-</p>
+**Live Demo:** [https://fakenews-platform.herokuapp.com/](https://fakenews-platform.herokuapp.com/)
 
 ---
 
-## Motivation
+## **Motivation 💡**
 
-Fake news is a problem that emerged since the beginning of the modern information age. It spreads like a virus across the big network, and provides nothing but disinformation for the people.
+Fake news is a problem that emerged with the modern information age. It spreads like a virus across networks and provides nothing but disinformation.
 
-Even if there are companies with a large budget investing on this field, this is a personal approach for fighting this problem, since I was not able to found a useful tool for the people that read news.
+Even though some companies invest heavily in this field, this project is a **personal approach** to help people detect fake news, providing a simple and accessible tool.
 
-## How it works?
+---
 
-This is a Machine Learning oriented project. The following flowchart shows the expected use the webapp has as of now.
+## **How it Works ⚙️**
 
-<p align="center">
-    <img src="flowchart.png" alt="flowchart"/>
-</p>
+This is a **Machine Learning oriented project**. The webapp allows users to input news text, and predicts whether the news is true or fake.
 
-## Datasets
+*(Optional: Add a flowchart here to visually show the process)*
 
-For training and testing of the model, the following Kaggle datasets were used:
+---
 
-- ['Fake News' InClass Prediction Competition](https://www.kaggle.com/c/fake-news/data)
+## **Datasets 📊**
 
-- ['Fake and real news dataset' by Clément Bisaillon](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset)
+For training and testing the model, the following datasets were used:
 
+* **'Fake News' InClass Prediction Competition**
+* **'Fake and Real News Dataset'** by Clément Bisaillon
 
+---
 
-## Running locally
+## **Tech Stack 🛠️**
 
-This projects runs on Python 3.7.10 version.
+* **Backend**: Django
+* **Machine Learning**: Scikit-learn, NLP preprocessing
+* **Frontend**: HTML, CSS, Bootstrap
+* **Database**: SQLite (default)
+* **Deployment**: Heroku
 
-If you manage Anaconda/Miniconda environments on your local system, you can build the project environment with:
+---
 
-`conda env create -f environment.yml`
+## **Installation & Running Locally 🚀**
 
-If you don't use Anaconda and you rather using another environment wrapper, install the project dependencies with:
+**Python Version:** 3.7.10
 
-`pip install -r requirements.txt`
+**1. Clone the repository**
 
-Then, run the server locally
+```bash
+git clone https://github.com/yourusername/your-repo.git
+cd your-repo
+```
 
-`python manage.py runserver`
+**2. Create a virtual environment (Anaconda/Miniconda)**
+
+```bash
+conda env create -f environment.yml
+conda activate your-env-name
+```
+
+**3. Or using pip**
+
+```bash
+pip install -r requirements.txt
+```
+
+**4. Run the server**
+
+```bash
+python manage.py runserver
+```
+
+**5. Open your browser**
+[http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+
+---
+
+## **Usage 🖱️**
+
+* Input the text of a news article.
+* Click **Predict** to see if the news is True or Fake.
+* Use responsibly to verify news before sharing.
+
+---
+
+## **Screenshots 📸**
+
+*(Optional: Add screenshots of your webapp interface here)*
+
+---
+
+## **Contributing 🤝**
+
+* Fork the repository.
+* Create a new branch: `git checkout -b feature/YourFeature`.
+* Commit your changes: `git commit -m 'Add some feature'`.
+* Push to the branch: `git push origin feature/YourFeature`.
+* Open a pull request.
+
+---
+
+## **License 📄**
+
+This project is licensed under the copyright.
